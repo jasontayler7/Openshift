@@ -9,3 +9,6 @@ print("Below projects exists in our cluster")
 for project in projects:
     print("Project "+ project.metadata.name + " Labels are:")
     print(project.metadata.labels)
+    labelsDict=project.metadata.labels
+    for key in labelsDict:
+        print(key + " : " + labelsDict[key])
