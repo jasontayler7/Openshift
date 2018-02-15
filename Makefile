@@ -1,4 +1,4 @@
 build:
-	docker build -t gspann/python3 .
+	docker build -t opstree/python3 .
 run:
-	docker run -it -v ${PWD}:/usr/src/app gspann/python3 /bin/bash
+	docker run -it --rm -v ${PWD}:/usr/src/app opstree/python3 /bin/bash
