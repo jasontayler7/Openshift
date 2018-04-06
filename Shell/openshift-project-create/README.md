@@ -4,19 +4,19 @@ This utility also provide the functionality of providing labels on namespaces(pr
 
 ## Overview
 In this utility you have:-
-- [Scripts](https://github.com/abhishekbhardwaj510/bash/tree/master/Openshift-Project-Creation/Scripts) :- In the Script directory you will have the all scripts for project, quota, limits and role creation.
-- [templates](https://github.com/abhishekbhardwaj510/bash/tree/master/Openshift-Project-Creation/templates) :- In the templates directory you will have the openshift template for quota and limits creation
-- [PropertyFile](https://github.com/abhishekbhardwaj510/bash/blob/master/Openshift-Project-Creation/Project.properties) :- In the property file you will have the properties of project, quota, limits and role and their values as well.
-- [ProjectCreation.sh](https://github.com/abhishekbhardwaj510/bash/blob/master/Openshift-Project-Creation/ProjectCreation.sh) :- This is the main shell Script file for calling the other scripts and templates.
+- [Scripts](https://github.com/ot-training/Openshift/tree/master/Shell/openshift-project-create/Scripts) :- In the Script directory you will have the all scripts for project, quota, limits and role creation.
+- [templates](https://github.com/ot-training/Openshift/tree/master/Shell/openshift-project-create/templates) :- In the templates directory you will have the openshift template for quota and limits creation
+- [PropertyFile](https://github.com/ot-training/Openshift/blob/master/Shell/openshift-project-create/Project.properties) :- In the property file you will have the properties of project, quota, limits and role and their values as well.
+- [ProjectCreation.sh](https://github.com/ot-training/Openshift/blob/master/Shell/openshift-project-create/ProjectCreation.sh) :- This is the main shell Script file for calling the other scripts and templates.
 
 ## Requirments
 These are the requirments of this Script
-1. **[templates](https://github.com/abhishekbhardwaj510/bash/tree/master/Openshift-Project-Creation/templates)** directory must be present in the working folder.
-2. **[Scripts](https://github.com/abhishekbhardwaj510/bash/tree/master/Openshift-Project-Creation/Scripts)** also must be present in the directory 
-3. You should have the correct value in **[Property File](https://github.com/abhishekbhardwaj510/bash/blob/master/Openshift-Project-Creation/Project.properties)**.
+1. **[templates](https://github.com/ot-training/Openshift/tree/master/Shell/openshift-project-create/templates)** directory must be present in the working folder.
+2. **[Scripts](https://github.com/ot-training/Openshift/tree/master/Shell/openshift-project-create/Scripts)** also must be present in the directory 
+3. You should have the correct value in **[Property File](https://github.com/ot-training/Openshift/blob/master/Shell/openshift-project-create/Project.properties)**.
 
 ## Usage
-For Executing this script you should provide right values in [PropertyFile](https://github.com/abhishekbhardwaj510/bash/blob/master/Openshift-Project-Creation/Project.properties). After this you will execute the main script [ProjectCreation.sh](https://github.com/abhishekbhardwaj510/bash/blob/master/Openshift-Project-Creation/ProjectCreation.sh) like this :-
+For Executing this script you should provide right values in [PropertyFile](https://github.com/ot-training/Openshift/blob/master/Shell/openshift-project-create/Project.properties). After this you will execute the main script [ProjectCreation.sh](https://github.com/ot-training/Openshift/blob/master/Shell/openshift-project-create/ProjectCreation.sh) like this :-
 
 ```
 ./ProjectCreation.sh Project.properties
