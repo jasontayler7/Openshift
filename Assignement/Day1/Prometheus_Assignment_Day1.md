@@ -35,3 +35,6 @@
 - Create alert if mysql or mongo scrape error is above than 1
 - Create alert if mysql connection error or mongo connection error is above than 1
 - Create alert if jenkins job is failing more than 1 time.
+
+## Refrence
+https://prometheus.io/docs/instrumenting/exporters/
