@@ -1,4 +1,4 @@
-# Topic:- Alertmanager installation and integration with promwtheus
+# Topic:- Alertmanager installation and integration with prometheus
 
 ## Topic to be covered
 - Alertmanager Installation
